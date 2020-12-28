@@ -19,7 +19,7 @@ function App() {
         <h1 className="App-title">My Timeline</h1>
       </header>
       <main className="App-main">
-      <TimelineEvent person = {firstEvent.person} status = {firstEvent.status} timeStamp ={firstEvent.timeStamp} />
+      <Timeline events = {timelineData.events}/>
       </main>
     </div>
   );
